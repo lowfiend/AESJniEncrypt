@@ -15,7 +15,7 @@ model {
         }
 
         ndk {
-            moduleName = "jni"
+            moduleName = "encrypt"
             toolchain = 'clang'
             CFlags.add('-std=c99')
             //添加需要使用的庫
